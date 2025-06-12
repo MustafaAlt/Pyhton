@@ -1,3 +1,3 @@
 # PyhtonOdev
 
-Algoritma VE Programlama Dersi 2. Dönem Ödevleri
+Algoritma Ve Programlama Dersi 2. Dönem Ödevleri
