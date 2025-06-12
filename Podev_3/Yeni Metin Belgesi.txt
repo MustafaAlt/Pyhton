@@ -1,0 +1,36 @@
+# Mayın Tarlası Oyunu (Python Konsol Uygulaması)
+
+Bu proje, klasik Mayın Tarlası oyununun Python programlama dili ile komut satırında çalışan bir versiyonudur. Kullanıcılar, farklı modlarda (Gizli ve Açık) oyunu oynayabilir.
+
+## Başlangıç
+
+Oyunu başlatmak için herhangi bir tuşa basın. Oyundan çıkmak için `0` tuşuna basabilirsiniz.
+
+## Oyun Modları
+
+1. **Gizli Mod**: Mayınların yeri gizlenmiştir (klasik mod).
+2. **Açık Mod**: Mayınların yerleri oyunun başından itibaren görünür durumdadır.
+
+## Oyun Kuralları
+
+- Oyun başladığında kullanıcıdan matris boyutu istenir. En az 10x10 boyutunda olmalıdır.
+- Matrisin %30'u kadar hücreye rastgele mayın yerleştirilir.
+- Oyuncu, satır ve sütun girerek bir hücre açar.
+- Eğer seçilen hücrede mayın varsa oyun biter.
+- Eğer mayın yoksa, o hücrenin etrafındaki mayın sayısı gösterilir.
+- Tüm mayınsız hücreler başarıyla açıldığında oyuncu oyunu kazanır.
+
+## Renk Kodları
+
+- `\\033[1;31;40mX\\033[0m`: Mayına basıldığında veya açık modda mayınları temsil eder (kırmızı).
+- `\\033[32;40m<rakam>\\033[0m`: Açılan hücredeki çevresel mayın sayısını gösterir (yeşil).
+
+## Örnek Çıktı
+
+```
+
+## Geliştirici
+
+**Mustafa Altiparmak**  
+Öğrenci No: 21100011032  
+Ödev 3 - Python Uygulama
